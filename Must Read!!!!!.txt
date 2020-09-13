@@ -1,0 +1,4 @@
+->This is developed for both mobile and Desktop, other resoultions.
+->The project should be executed with the local server (Xampp,wamp etc)
+->The project has the fonts hyperlinked so Internet Connection is Required
+------------------------------------------------@Developed by A.Dharani Kumar-------------------------------------------------

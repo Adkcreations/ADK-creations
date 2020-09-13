@@ -1,0 +1,76 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+	<meta http-equiv="refresh" content="3;url=main.html"/>
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Simba Developers</title>
+	<style>
+		body{
+			animation:bg 7s infinite;
+		}
+		@keyframes bg {
+			0%{
+				background:linear-gradient(to right,black,rgb(71, 24, 7));
+			}
+			95%{
+				background:linear-gradient(to right,rgb(71, 24, 7),black);
+			}
+		}
+		#anim{max-width: 500px;
+			max-height:500px;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+			margin-top:7%;
+		
+	}
+	.text{
+		font-family:'poppins';
+		font-size:30px;
+		text-align:center;
+		position:relative;
+		animation:fr 6s infinite;
+	}
+	@keyframes fr{
+		0%{
+			color:orangered;
+		}
+		20%{
+			color:grey;
+			letter-spacing: 5px;
+		}
+		40%{
+			color:orangered;
+			letter-spacing: 0px;
+		}
+		60%{
+			color:grey;
+				letter-spacing:5px;
+			}
+		80%{
+			color:orangered;
+			letter-spacing: 0px;
+		}
+		100%{
+			color:grey;
+			letter-spacing:5px;
+		}
+
+
+
+		}
+	}
+	</style>
+</head>
+<body></body>
+	<div id="anim"></div>
+	<div class="text">Loading..</div>
+	<script src="lottie.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
